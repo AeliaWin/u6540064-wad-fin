@@ -1,4 +1,5 @@
 // app/customer/[id]/page.js
+"use client";
 import { useState, useEffect } from 'react';
 import { useParams } from 'next/navigation';  // Next.js 13 uses this hook for fetching params
 
